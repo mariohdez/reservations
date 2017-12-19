@@ -1,0 +1,171 @@
+/*
+ * Programmer(s) : Isaac Fimbres, Mario Hernandez
+ * file: styles.css
+ * purpose: to style the website.
+ */
+header {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+body {
+    background-image: url("./jetski_background.jpg");
+}
+#info {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#info-header {
+    font-size: 30px;
+}
+
+#info-par {
+    font-size: 20px;
+}
+
+
+header > h1 {
+    font-family: serif;
+    margin-top: 0px;
+    background-color: #286DA8;
+    color: white;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.AvailableJetSkisDisplay {
+    font-size: 30px;
+    font-family: serif;
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    overflow: hidden;
+    width: 30%;
+    background-color: #CD5360;
+    color: white;
+}
+
+.AvailableJetSkisDisplay>.Lable {
+    float: left;
+    width: 30%;
+}
+
+.AvailableJetSkisDisplay>.Lable>p {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.AvailableJetSkisDisplay>.Counter {
+    float: right;
+    width: 70%;
+}
+
+.AvailableJetSkisDisplay>.Counter>p {
+    text-align: center;
+    line-height: 150px;
+}
+
+div.JetSkiRental {
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    height: auto;
+}
+div.JetSkiRental > #JetSkiImage {
+    padding-left: 15px;
+    max-height: 160px;
+    max-width: 160px;
+    vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/*#footer {
+    font-family: serif;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+    background-color: #286DA8;
+    text-align: center;
+    margin: 0px auto;
+}
+#footer p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}*/
+
+/*Confirmation style sheet start*/
+#confirmationBody{
+    font-family: Verdana;
+    color: white;
+}
+#content{
+    margin: 0 auto;
+    border: 3px solid white;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(16, 18, 19, 0.65);
+}
+h1{
+    font-size: 48pt;
+}
+p{
+    font-size: 32pt;
+}
+#homeButton{
+    width: 200px;
+    height: 50px;
+    font-size: 24pt;
+
+}
+#adminReport{
+    margin: 0 auto;
+    border: 3px solid white;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(16, 18, 19, 0.65);
+    color: white;
+}
+#report{
+    margin: 0 auto;
+
+}
+td{
+    padding: 1px;
+    text-align: center;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+}
+#reportDateText{
+    width: 200px;
+    height: 40px;
+    font-size: 16pt;
+    margin: 5px;
+}
+#logoutButton{
+    margin: 2px auto;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: black
+}
+
+/*Confirmation style sheet end*/
